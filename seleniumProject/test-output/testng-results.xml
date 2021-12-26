@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-26T04:15:31Z" name="Suite" finished-at="2021-12-26T04:15:43Z" duration-ms="12102">
+    <groups>
+    </groups>
+    <test started-at="2021-12-26T04:15:31Z" name="cross browser-test-Edge" finished-at="2021-12-26T04:15:35Z" duration-ms="3848">
+      <class name="testNG.crossBrowser">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNG.crossBrowser@1f59a598]" started-at="2021-12-26T04:15:31Z" name="setup" finished-at="2021-12-26T04:15:35Z" duration-ms="3776" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of MSEdgeDriver only supports MSEdge version 90
+Current browser version is 96.0.1054.62 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'NARDELI-PC', ip: '10.0.0.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15.0.2'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x000000013FA85CB2+4676786]
+Ordinal0 [0x000000013F72D677+1169015]
+Ordinal0 [0x000000013F75631A+1336090]
+Ordinal0 [0x000000013F752544+1320260]
+Ordinal0 [0x000000013F74BE29+1293865]
+Ordinal0 [0x000000013F78373B+1521467]
+Ordinal0 [0x000000013F77F2BF+1503935]
+Ordinal0 [0x000000013F758061+1343585]
+Ordinal0 [0x000000013F75918B+1347979]
+Ordinal0 [0x000000013F800121+2031905]
+Ordinal0 [0x000000013F7CC73E+1820478]
+Ordinal0 [0x000000013F9A3224+3748388]
+Ordinal0 [0x000000013F7CD10E+1822990]
+Ordinal0 [0x000000013FA98874+4753524]
+Ordinal0 [0x000000013FA98174+4751732]
+Ordinal0 [0x000000013FA97FBA+4751290]
+Ordinal0 [0x000000013FA6FFD8+4587480]
+BaseThreadInitThunk [0x00000000779F556D+13]
+RtlUserThreadStart [0x0000000077C5372D+29]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of MSEdgeDriver only supports MSEdge version 90
+Current browser version is 96.0.1054.62 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'NARDELI-PC', ip: '10.0.0.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15.0.2'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x000000013FA85CB2+4676786]
+Ordinal0 [0x000000013F72D677+1169015]
+Ordinal0 [0x000000013F75631A+1336090]
+Ordinal0 [0x000000013F752544+1320260]
+Ordinal0 [0x000000013F74BE29+1293865]
+Ordinal0 [0x000000013F78373B+1521467]
+Ordinal0 [0x000000013F77F2BF+1503935]
+Ordinal0 [0x000000013F758061+1343585]
+Ordinal0 [0x000000013F75918B+1347979]
+Ordinal0 [0x000000013F800121+2031905]
+Ordinal0 [0x000000013F7CC73E+1820478]
+Ordinal0 [0x000000013F9A3224+3748388]
+Ordinal0 [0x000000013F7CD10E+1822990]
+Ordinal0 [0x000000013FA98874+4753524]
+Ordinal0 [0x000000013FA98174+4751732]
+Ordinal0 [0x000000013FA97FBA+4751290]
+Ordinal0 [0x000000013FA6FFD8+4587480]
+BaseThreadInitThunk [0x00000000779F556D+13]
+RtlUserThreadStart [0x0000000077C5372D+29]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at testNG.crossBrowser.setup(crossBrowser.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="sucessfulLogin()[pri:0, instance:testNG.crossBrowser@1f59a598]" started-at="2021-12-26T04:15:35Z" name="sucessfulLogin" finished-at="2021-12-26T04:15:35Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of MSEdgeDriver only supports MSEdge version 90
+Current browser version is 96.0.1054.62 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'NARDELI-PC', ip: '10.0.0.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15.0.2'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x000000013FA85CB2+4676786]
+Ordinal0 [0x000000013F72D677+1169015]
+Ordinal0 [0x000000013F75631A+1336090]
+Ordinal0 [0x000000013F752544+1320260]
+Ordinal0 [0x000000013F74BE29+1293865]
+Ordinal0 [0x000000013F78373B+1521467]
+Ordinal0 [0x000000013F77F2BF+1503935]
+Ordinal0 [0x000000013F758061+1343585]
+Ordinal0 [0x000000013F75918B+1347979]
+Ordinal0 [0x000000013F800121+2031905]
+Ordinal0 [0x000000013F7CC73E+1820478]
+Ordinal0 [0x000000013F9A3224+3748388]
+Ordinal0 [0x000000013F7CD10E+1822990]
+Ordinal0 [0x000000013FA98874+4753524]
+Ordinal0 [0x000000013FA98174+4751732]
+Ordinal0 [0x000000013FA97FBA+4751290]
+Ordinal0 [0x000000013FA6FFD8+4587480]
+BaseThreadInitThunk [0x00000000779F556D+13]
+RtlUserThreadStart [0x0000000077C5372D+29]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of MSEdgeDriver only supports MSEdge version 90
+Current browser version is 96.0.1054.62 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'NARDELI-PC', ip: '10.0.0.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15.0.2'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x000000013FA85CB2+4676786]
+Ordinal0 [0x000000013F72D677+1169015]
+Ordinal0 [0x000000013F75631A+1336090]
+Ordinal0 [0x000000013F752544+1320260]
+Ordinal0 [0x000000013F74BE29+1293865]
+Ordinal0 [0x000000013F78373B+1521467]
+Ordinal0 [0x000000013F77F2BF+1503935]
+Ordinal0 [0x000000013F758061+1343585]
+Ordinal0 [0x000000013F75918B+1347979]
+Ordinal0 [0x000000013F800121+2031905]
+Ordinal0 [0x000000013F7CC73E+1820478]
+Ordinal0 [0x000000013F9A3224+3748388]
+Ordinal0 [0x000000013F7CD10E+1822990]
+Ordinal0 [0x000000013FA98874+4753524]
+Ordinal0 [0x000000013FA98174+4751732]
+Ordinal0 [0x000000013FA97FBA+4751290]
+Ordinal0 [0x000000013FA6FFD8+4587480]
+BaseThreadInitThunk [0x00000000779F556D+13]
+RtlUserThreadStart [0x0000000077C5372D+29]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at testNG.crossBrowser.setup(crossBrowser.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sucessfulLogin -->
+      </class> <!-- testNG.crossBrowser -->
+    </test> <!-- cross browser-test-Edge -->
+    <test started-at="2021-12-26T04:15:35Z" name="multi-browser-test-Chrome" finished-at="2021-12-26T04:15:43Z" duration-ms="8107">
+      <class name="testNG.MouseOver">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNG.MouseOver@313b2ea6]" started-at="2021-12-26T04:15:35Z" name="setup" finished-at="2021-12-26T04:15:41Z" duration-ms="5550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="beforeMouseOver()[pri:1, instance:testNG.MouseOver@313b2ea6]" started-at="2021-12-26T04:15:41Z" name="beforeMouseOver" finished-at="2021-12-26T04:15:41Z" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMouseOver -->
+        <test-method signature="afterMouseOver()[pri:2, instance:testNG.MouseOver@313b2ea6]" started-at="2021-12-26T04:15:41Z" name="afterMouseOver" finished-at="2021-12-26T04:15:41Z" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMouseOver -->
+        <test-method signature="signOn()[pri:3, instance:testNG.MouseOver@313b2ea6]" started-at="2021-12-26T04:15:41Z" name="signOn" finished-at="2021-12-26T04:15:43Z" duration-ms="2199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOn -->
+      </class> <!-- testNG.MouseOver -->
+    </test> <!-- multi-browser-test-Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

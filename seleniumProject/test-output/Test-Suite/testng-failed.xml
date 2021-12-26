@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test-Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="sel-test-parameters(failed)">
+    <parameter name="password" value="Test@123"/>
+    <parameter name="username" value="testuser_1"/>
+    <classes>
+      <class name="testNG.parametersDemo">
+        <methods>
+          <include name="unsucessfulLogin" invocation-numbers="2 3"/>
+          <include name="accessPage"/>
+        </methods>
+      </class> <!-- testNG.parametersDemo -->
+    </classes>
+  </test> <!-- sel-test-parameters(failed) -->
+</suite> <!-- Failed suite [Test-Suite] -->

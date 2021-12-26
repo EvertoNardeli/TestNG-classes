@@ -1,0 +1,27 @@
+<!-- Running a set of test cases together is call executing a Test Suite. -->
+<!-- In TestNG framework, -->
+<!-- we need to create testng.xml file to create and handle multiple test
+    classes. -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" parallel = "none"> 
+   
+    <test name="cross browser-test-Edge">
+    	
+    	<parameter name="browser" value="Edge" />
+    	
+        <classes>
+            <class name="testNG.crossBrowser" />
+       </classes>
+    </test>
+   
+    <test name="multi-browser-test-Chrome">
+    
+    	<parameter name="browser" value="Chrome" />    
+    
+        <classes>
+            <class name="testNG.MouseOver" />
+       </classes>
+    </test>
+   
+</suite>
